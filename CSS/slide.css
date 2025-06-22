@@ -1,0 +1,139 @@
+@import 'https://rnd195.github.io/my-marp-themes/gradient.css';
+@import '../Download/animation/node_modules/animate.css/animate.css';
+
+/* ⬇️ ①の画像を "one" という名前でモーフィング可能に設定 ⬇️ */
+img[alt="1"]{
+  view-transition-name: one;
+  contain: layout;
+}
+
+img[alt="2"]{
+    view-transition-name: two;
+    contain: layout;
+}
+
+img[alt="3"]{
+   view-transition-name: three;
+   contain: layout;
+}
+
+/* ①②③の画像の共通設定 */
+img:is([alt="1"], [alt="2"], [alt="3"]) {
+  height: 80px;
+  position: relative;
+  top: -0.1em;
+  vertical-align: middle;
+  width: 64px;
+}
+
+img[alt ='4']{
+    height: 100px;
+    position: relative;
+    top: -0.1em;
+    padding-top: 100px;
+    padding-left: 1000px;
+    vertical-align: middle;
+    width: 90px;
+}
+
+img[alt = '5']{
+    position: relative;
+    padding-top: 0px;
+    padding-left: 300px;
+    vertical-align: middle;
+}
+
+.aa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 150px;
+    padding-right: 140px;
+    font-size: 60px;
+    color: rgb(75, 75, 75);
+    }
+
+
+.bb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 200px;
+    font-size: 60px;
+    color: rgb(75, 75, 75);
+}
+
+.cc{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 250px;
+    padding-left: 140px;
+    padding-right: 140px;
+    font-size: 60px;
+    color: rgb(75, 75, 75);
+    
+}
+
+.ee{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 480px;
+    font-size: 100px;
+}
+
+.refer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0px;
+    font-size: 30px;
+    color:rgb(88, 87, 87)
+}
+
+h4{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    height: 40px;
+    font-size: 70px;
+}
+
+h3{
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    height: 40px;
+    font-size: 70px;
+}
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    font-size: 100px;
+}
+
+h1 {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 10px;
+    font-size: 70px;
+}
+
+li {
+    display: flex;
+    position: relative;
+    top: 170px; /* 10px 下に移動 */
+    align-items: center;
+    padding-left: 40px; /* デフォルト: 40px */
+    height: 100px;
+    font-size: 60px;
+    list-style-type: none;
+}
+
+
