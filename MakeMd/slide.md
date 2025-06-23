@@ -113,9 +113,9 @@ transition: fade
 </div>
 
 ---
-# まとめのグラフとか
+# グラフ
 <div class = 'ee'>
-    グラフ
+    結果!
 </div>
 
 ![5](../graph/graph.png)
