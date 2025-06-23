@@ -1,7 +1,7 @@
 趣味でスライドをmarpで作ってアニメーションなどをつけてみようかなと思い、作ってみました。
 
 #実行方法
-Marp CLIを利用して、CSSをmdに反映させてスライドを一旦htmlファイルにしています。
+<br> Marp CLIを利用して、CSSをmdに反映させてスライドを一旦htmlファイルにしています。
 <br> marp --theme ./CSS/slide.css ./MakeMd/index.md
 
 htmlを開けばスライドが見れます。
