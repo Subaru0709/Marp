@@ -6,4 +6,4 @@ marp --theme ./CSS/slide.css ./MakeMd/slide.md
 元々公開するために作ったものではないのでタグの名前が雑になっている部分もあります(修正予定)
 
 #スライドのサンプル
-![Sample](https://Subaru0709.github.io/MakeMd/slide.html)
+![Sample](https://Subaru0709.github.io/Marp/MakeMd/slide.html)
