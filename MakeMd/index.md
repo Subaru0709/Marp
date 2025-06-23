@@ -32,14 +32,14 @@ transition: fade
 
 <div class = "animate__animated animate__fadeInDown animate__slow">
     <div class = "cc">
-        1.一つ目
+        1.遅れて
     </div>
 
 </div>
 
 <div class="animate__animated animate__fadeInDown animate__delay-2s">
     <div class = "bb">
-        2.二つ目
+        2.コメントが来る
     </div>
 
 </div>
@@ -67,14 +67,14 @@ transition: fade
 
 <div class = "animate__animated animate__fadeInDown animate__slow">
     <div class = "aa">
-    写真とか
+    写真とか追加できる
     </div>
 
 </div>
 
 <div class="animate__animated animate__fadeInDown animate__delay-1s">
     <div class = "bb">
-    追加できる
+    (ちっちゃい地蔵)
     </div>
 
 </div>
@@ -101,13 +101,13 @@ transition: fade
 
 <div class = "animate__animated animate__fadeInDown animate__slow">
     <div class = "cc">
-    遅れてくる
+    ラーメンは
     </div>
 </div>
 
 <div class="animate__animated animate__fadeInDown animate__delay-2s">
     <div class = "bb">
-    2秒後に来る
+    おいしい
     </div>
 
 </div>
