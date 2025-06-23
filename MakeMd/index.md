@@ -101,13 +101,13 @@ transition: fade
 
 <div class = "animate__animated animate__fadeInDown animate__slow">
     <div class = "cc">
-    あ
+    遅れてくる
     </div>
 </div>
 
 <div class="animate__animated animate__fadeInDown animate__delay-2s">
     <div class = "bb">
-    あ
+    2秒後に来る
     </div>
 
 </div>
